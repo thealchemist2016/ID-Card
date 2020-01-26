@@ -1,16 +1,17 @@
-/*jshint esversion: 6 */ 
+let button = document.getElementById('button');
 
+function idCard(){
+  let firstName = document.getElementById('firstName').value;
+  let lastName = document.getElementById('lastName').value;
+  let address = document.getElementById('address').value;
+  let city = document.getElementById('city').value;
+  let state = document.getElementById('state').value;
 
-function idCard() {
-  let firstName = document.getElementById("firstName").value;
-  let lastName = document.getElementById("lastName").value;
-  let address = document.getElementById("address").value;
+  document.getElementById('postFullName').innerHTML =  firstName + " " + lastName;
+  document.getElementById('postAddress').innerHTML = address + ", " + city + "," + state;
 
-  document.getElementById("postFullName").innerHTML =  firstName + " " + lastName;
-  document.getElementById("postAddress").innerHTML = address;
-
-  let age = parseInt(document.getElementById("age").value);
-  let phoneNumber = parseInt(document.getElementById("phoneNumber").value);
+  let age = parseInt(document.getElementById('age').value);
+  var phoneNumber = parseInt(document.getElementById('phoneNumber').value);
 
   let numberArray = [];
   numberArray.push(age);
@@ -25,3 +26,4 @@ function idCard() {
   }
 }
 
+button.addEventListener('click', idCard);
