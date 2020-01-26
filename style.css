@@ -1,1 +1,49 @@
+img {
+  width: 90px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#idCard {
+  border: 5px solid black;
+  background-color: darkgray;
+  height: 14em;
+  width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+#postFullName {
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+        top: 35%;
+        left: 55%;
+        margin-right: -40%;
+        transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+body {
+  background-color: lightblue;
+}
+/*
+.center {
+}
+*/
+
+.userData {
+  font-variant: small-caps;
+  display: inline-block;
+  vertical-align: middle;
+}
 
