@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Create an ID Card</title>
+  
+        <meta name="description" content="Create an ID Card">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Michael James Byrd">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Let's Create an ID card!</h1>
 
+        <div id="userData">
+            <strong>First Name:</strong><br>
+            <input type="text" id="firstName" name="firstName"><br>
+
+            <strong>Last Name:</strong><br>
+            <input type="text" id="lastName" name="lastName"><br>
+
+            <strong>Age:</strong><br>
+            <input type="number" id="age" name="age"><br>
+    
+            <strong>Phone Number:</strong><br>
+            <input type="number" id="phoneNumber" name="phoneNumber"><br>
+    
+            <strong>Address:</strong><br>
+            <input type="text" id="address" name="address"><br>
+    
+            <button id="button" onclick="idCard()">Get ID card!</button>
+        </div>
+
+        <div id="idCard">
+            <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+            <p id="postFullName"></p>
+            <p id="postAge"></p>
+            <p id="postPhoneNumber"></p>
+            <p id="postAddress"></p>
+        </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
