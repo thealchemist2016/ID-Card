@@ -45,3 +45,4 @@ For your final project in Coding From Scratch, you will be building a form, use 
   + Pay close attention to the location of the contents
   + Tip! The idCard has already been targetted and has some CSS within it. Make sure to add on to this target when styling the id card. 
 
+![alt text](https://github.com/PhoenixTechJG/1-cfs-fp/blob/master/CSF_FP%20example.png "ID Page Example Image")
