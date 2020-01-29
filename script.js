@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let button = document.getElementById('button');
 
 function idCard(){
