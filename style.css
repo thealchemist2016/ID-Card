@@ -1,0 +1,74 @@
+
+body {
+  background-color: aliceblue;
+  text-align: center;
+  line-height: 1;
+  vertical-align: baseline;
+  font: inherit;
+  font-family: 'Barlow', system-ui, sans-serif;
+  width: 100vw;
+}
+
+h1 {
+  margin-bottom: 2%;
+  color: darkslategrey;
+}
+
+#userData {
+  background-color: deepskyblue;
+  max-width: 100vw;
+  padding: 40px;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#userData input {
+  margin: 2%;
+  padding: 1%;
+  width: 25vw;
+}
+
+#button {
+ align-self: center;
+ color: aliceblue;
+ background-color: orange;
+ margin-bottom: 25px;
+ padding: 10px;
+ width: 25vw;
+ font-weight: bold;
+ font-size: medium;
+}
+
+#viewID {
+width: 25vw;
+display: block;
+position: relative;
+margin-top: 25px;
+margin-bottom: 5%;
+padding: 10px;
+margin-left: 28%;
+}
+
+#idCard {
+  margin-top: inherit;
+  border: 5px solid black;
+  background-color: darkgray;
+  width: 500px;
+  height: 250px;
+}
+
+#idCard img {
+    width: 85px;
+    height: 85px;
+    display: block;
+}
+
+#postFullName {
+  font-weight: bolder;
+  font-size: 26px;
+  position: absolute;
+  top: 12%;
+  margin-left: 80px;
+}
